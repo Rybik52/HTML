@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <style>
+        textarea {
+            resize: none;
+            background: skyblue;
+        }
+        fieldset {
+            background: pink;
+        }
+        body {
+            background-image:url(https://vkclub.su/_data/stickers/imbirchik/sticker_vk_imbirchik_021.png)
+        }
+    </style>
+</head>
+<body>
+    <h1>Купите Crocs!</h1>
+    <form action="" method="GET">
+       Ваше имя: <input type="text" name="user" value="Никита">
+       <br>
+        Ваш город: <select name="city">
+            <option>Москва</option>
+            <option>Владимир</option>
+            <option>Санкт-Петербург</option>
+        </select>
+        <br>
+        Ваша почта: <input type="text" name="email">
+        <br>
+        Ваш телефон: <input type="text" name="phone">
+        <br> 
+        <input type="submit" value="Купить обувку">
+        <fieldset>
+        <legend>Выберите цвет</legend>
+         <input type="radio" name="color" value="Зелёный"> Зелёный
+        <br>
+         <input type="radio" name="color" value="Синий"> Синий
+        <br>
+         <input type="radio" name="color" value="Банановый"> Банановый
+        <br> 
+         <input type="radio" name="color" value="Розовый"> Розовый
+        </fieldset>
+        <fieldset>
+         <legend>Дополнительные опции</legend>
+         <input type="checkbox" name="opt" value="Скнопочками"> С кнопочками
+         <br>
+         <input type="checkbox" name="opt" value="Недырявые"> Не дырявые
+         <br>
+         <input type="checkbox" name="opt" value="Сцветочками"> С цветочками
+         <br>
+         <input type="checkbox" name="opt" value="КитайскаяПодделка"> Китайская подделка
+         <br>
+         <input type="checkbox" name="opt" value="Сапоги"> Сапоги 
+        </fieldset>
+        <textarea cols="30" rows="5" name="comments" placeholder="Ваш комментарий!"></textarea>
+    </form>
+</body>
+</html>

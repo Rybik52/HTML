@@ -1,0 +1,20 @@
+body {
+    background: purple;
+    text-align: center;
+}
+
+.link {
+    background: crimson;
+    color: darkgray;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 300px;
+    border-width: 10px;
+    border-color: yellow;
+    border-style: solid ;
+    padding-left: auto;
+    padding-right: auto;
+    display: inline-block;
+    text-align: center;
+    border-right-color: orange;
+}

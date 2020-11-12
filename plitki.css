@@ -1,0 +1,44 @@
+.stolb {
+    border-style: none;
+    border-color: gray;
+    background-color: grey;
+    height: 1200px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.pramaygolnik {
+    border-style: none;
+    border-color: rgb(122, 187, 212);
+    background-color: skyblue;
+    height: 100px;
+    width: 248px;
+    display: inline-block;
+    font: 10px sans-serif;
+}
+
+.kvadratBig {
+    border-style: none;
+    background-color: tomato;
+    border-color: rgb(240, 93, 68);
+    height: 248px;
+    width: 248px;
+    display: inline-block;
+    font: 10px sans-serif;
+}
+
+.kvadratMid {
+    border-style: none;
+    border-color: turquoise;
+    background-color: turquoise;
+    height: 123px;
+    width: 123px;
+    display: inline-block;
+    font: 10px sans-serif;   
+}
+
+.stolbets>div {
+    margin: 1px;
+}
